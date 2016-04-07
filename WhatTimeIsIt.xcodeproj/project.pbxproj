@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351524FD1CAB775A00D65BE1 /* BasicClockPattern_3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 351524FC1CAB775A00D65BE1 /* BasicClockPattern_3.sks */; };
+		351525071CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525031CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf */; };
+		351525081CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525041CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf */; };
+		351525091CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525051CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf */; };
+		3515250A1CACE1EA00D65BE1 /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525061CACE1EA00D65BE1 /* CaviarDreams.ttf */; };
+		3539EB621CB5FCB60017E355 /* WTTutorialScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3539EB611CB5FCB60017E355 /* WTTutorialScene.m */; };
+		35518CB31C9A483200D8A9C2 /* WTClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35518CB21C9A483200D8A9C2 /* WTClock.m */; };
+		35518CB61C9A49C600D8A9C2 /* SKScene+Unarchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 35518CB51C9A49C600D8A9C2 /* SKScene+Unarchive.m */; };
+		3560D66A1CAF9B0900C2E03A /* tick-tock-slow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6651CAF9B0900C2E03A /* tick-tock-slow.wav */; };
+		3560D66B1CAF9B0900C2E03A /* tick-tock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6661CAF9B0900C2E03A /* tick-tock.wav */; };
+		3560D66C1CAF9B0900C2E03A /* elevator.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6681CAF9B0900C2E03A /* elevator.wav */; };
+		3560D66D1CAF9B0900C2E03A /* funky.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6691CAF9B0900C2E03A /* funky.wav */; };
+		3560D6701CAF9C2900C2E03A /* KBGeneralUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560D66F1CAF9C2900C2E03A /* KBGeneralUtils.m */; };
+		3560D6781CAF9CAB00C2E03A /* badoop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6711CAF9CAB00C2E03A /* badoop.wav */; };
+		3560D6791CAF9CAB00C2E03A /* buueewww.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6721CAF9CAB00C2E03A /* buueewww.wav */; };
+		3560D67A1CAF9CAB00C2E03A /* buzzer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6731CAF9CAB00C2E03A /* buzzer.wav */; };
+		3560D67B1CAF9CAB00C2E03A /* neg.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6741CAF9CAB00C2E03A /* neg.wav */; };
+		3560D67C1CAF9CAB00C2E03A /* pup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6751CAF9CAB00C2E03A /* pup.wav */; };
+		3560D67D1CAF9CAB00C2E03A /* pup2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6761CAF9CAB00C2E03A /* pup2.wav */; };
+		3560D67E1CAF9CAB00C2E03A /* pup3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6771CAF9CAB00C2E03A /* pup3.wav */; };
+		3560D6821CAFA19000C2E03A /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560D6801CAFA19000C2E03A /* GameScene.m */; };
+		3560D6891CAFA1D300C2E03A /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6851CAFA1D300C2E03A /* GameOver.sks */; };
+		3560D68A1CAFA1D300C2E03A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6861CAFA1D300C2E03A /* GameScene.sks */; };
+		3560D68B1CAFA1D300C2E03A /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6871CAFA1D300C2E03A /* MainMenu.sks */; };
+		3560D68C1CAFA1D300C2E03A /* TutorialScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6881CAFA1D300C2E03A /* TutorialScene.sks */; };
+		3560D68F1CAFA22100C2E03A /* WTBaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560D68E1CAFA22100C2E03A /* WTBaseScene.m */; };
+		35B73D071C9D240D004F4DEC /* BasicClockPattern_2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B73D061C9D240D004F4DEC /* BasicClockPattern_2.sks */; };
+		35B73D0A1C9D243C004F4DEC /* BasicClockPattern_0.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B73D081C9D243C004F4DEC /* BasicClockPattern_0.sks */; };
+		35B73D0B1C9D243C004F4DEC /* BasicClockPattern_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B73D091C9D243C004F4DEC /* BasicClockPattern_1.sks */; };
+		35B73D131C9D34E8004F4DEC /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B73D121C9D34E8004F4DEC /* MainMenu.m */; };
+		35B73D161C9D38EB004F4DEC /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B73D151C9D38EB004F4DEC /* GameOver.m */; };
+		35E1A7261C97B1B6006E7C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A7251C97B1B6006E7C80 /* main.m */; };
+		35E1A7291C97B1B6006E7C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A7281C97B1B6006E7C80 /* AppDelegate.m */; };
+		35E1A7311C97B1B6006E7C80 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A7301C97B1B6006E7C80 /* GameViewController.m */; };
+		35E1A7341C97B1B6006E7C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A7321C97B1B6006E7C80 /* Main.storyboard */; };
+		35E1A7361C97B1B6006E7C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A7351C97B1B6006E7C80 /* Assets.xcassets */; };
+		35E1A7391C97B1B6006E7C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A7371C97B1B6006E7C80 /* LaunchScreen.storyboard */; };
+		35E1A7441C97B1B6006E7C80 /* WhatTimeIsItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A7431C97B1B6006E7C80 /* WhatTimeIsItTests.m */; };
+		35E1A74F1C97B1B6006E7C80 /* WhatTimeIsItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A74E1C97B1B6006E7C80 /* WhatTimeIsItUITests.m */; };
+		35E1A7A41C990F62006E7C80 /* DefaultClock.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A7A31C990F62006E7C80 /* DefaultClock.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35E1A7401C97B1B6006E7C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E1A7191C97B1B6006E7C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E1A7201C97B1B6006E7C80;
+			remoteInfo = WhatTimeIsIt;
+		};
+		35E1A74B1C97B1B6006E7C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E1A7191C97B1B6006E7C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E1A7201C97B1B6006E7C80;
+			remoteInfo = WhatTimeIsIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351524FC1CAB775A00D65BE1 /* BasicClockPattern_3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_3.sks; sourceTree = "<group>"; };
+		351525031CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		351525041CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
+		351525051CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Italic.ttf; sourceTree = "<group>"; };
+		351525061CACE1EA00D65BE1 /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		3539EB601CB5FCB60017E355 /* WTTutorialScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTutorialScene.h; sourceTree = "<group>"; };
+		3539EB611CB5FCB60017E355 /* WTTutorialScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTutorialScene.m; sourceTree = "<group>"; };
+		35518CB11C9A483200D8A9C2 /* WTClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTClock.h; sourceTree = "<group>"; };
+		35518CB21C9A483200D8A9C2 /* WTClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTClock.m; sourceTree = "<group>"; };
+		35518CB41C9A49C600D8A9C2 /* SKScene+Unarchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SKScene+Unarchive.h"; path = "../SKScene+Unarchive.h"; sourceTree = "<group>"; };
+		35518CB51C9A49C600D8A9C2 /* SKScene+Unarchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SKScene+Unarchive.m"; path = "../SKScene+Unarchive.m"; sourceTree = "<group>"; };
+		35518CBC1C9BB95400D8A9C2 /* WTTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTTime.h; sourceTree = "<group>"; };
+		3560D6651CAF9B0900C2E03A /* tick-tock-slow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tick-tock-slow.wav"; sourceTree = "<group>"; };
+		3560D6661CAF9B0900C2E03A /* tick-tock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tick-tock.wav"; sourceTree = "<group>"; };
+		3560D6681CAF9B0900C2E03A /* elevator.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elevator.wav; sourceTree = "<group>"; };
+		3560D6691CAF9B0900C2E03A /* funky.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = funky.wav; sourceTree = "<group>"; };
+		3560D66E1CAF9C2900C2E03A /* KBGeneralUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBGeneralUtils.h; sourceTree = "<group>"; };
+		3560D66F1CAF9C2900C2E03A /* KBGeneralUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBGeneralUtils.m; sourceTree = "<group>"; };
+		3560D6711CAF9CAB00C2E03A /* badoop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = badoop.wav; sourceTree = "<group>"; };
+		3560D6721CAF9CAB00C2E03A /* buueewww.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buueewww.wav; sourceTree = "<group>"; };
+		3560D6731CAF9CAB00C2E03A /* buzzer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buzzer.wav; sourceTree = "<group>"; };
+		3560D6741CAF9CAB00C2E03A /* neg.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = neg.wav; sourceTree = "<group>"; };
+		3560D6751CAF9CAB00C2E03A /* pup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pup.wav; sourceTree = "<group>"; };
+		3560D6761CAF9CAB00C2E03A /* pup2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pup2.wav; sourceTree = "<group>"; };
+		3560D6771CAF9CAB00C2E03A /* pup3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pup3.wav; sourceTree = "<group>"; };
+		3560D67F1CAFA19000C2E03A /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		3560D6801CAFA19000C2E03A /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		3560D6851CAFA1D300C2E03A /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		3560D6861CAFA1D300C2E03A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		3560D6871CAFA1D300C2E03A /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		3560D6881CAFA1D300C2E03A /* TutorialScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TutorialScene.sks; sourceTree = "<group>"; };
+		3560D68D1CAFA22100C2E03A /* WTBaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTBaseScene.h; sourceTree = "<group>"; };
+		3560D68E1CAFA22100C2E03A /* WTBaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTBaseScene.m; sourceTree = "<group>"; };
+		35B73D061C9D240D004F4DEC /* BasicClockPattern_2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_2.sks; sourceTree = "<group>"; };
+		35B73D081C9D243C004F4DEC /* BasicClockPattern_0.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_0.sks; sourceTree = "<group>"; };
+		35B73D091C9D243C004F4DEC /* BasicClockPattern_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_1.sks; sourceTree = "<group>"; };
+		35B73D111C9D34E8004F4DEC /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		35B73D121C9D34E8004F4DEC /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		35B73D141C9D38EB004F4DEC /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		35B73D151C9D38EB004F4DEC /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		35E1A7211C97B1B6006E7C80 /* WhatTimeIsIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatTimeIsIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E1A7251C97B1B6006E7C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35E1A7271C97B1B6006E7C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35E1A7281C97B1B6006E7C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35E1A72F1C97B1B6006E7C80 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		35E1A7301C97B1B6006E7C80 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		35E1A7331C97B1B6006E7C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35E1A7351C97B1B6006E7C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35E1A7381C97B1B6006E7C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35E1A73A1C97B1B6006E7C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E1A73F1C97B1B6006E7C80 /* WhatTimeIsItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatTimeIsItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E1A7431C97B1B6006E7C80 /* WhatTimeIsItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatTimeIsItTests.m; sourceTree = "<group>"; };
+		35E1A7451C97B1B6006E7C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E1A74A1C97B1B6006E7C80 /* WhatTimeIsItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatTimeIsItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E1A74E1C97B1B6006E7C80 /* WhatTimeIsItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatTimeIsItUITests.m; sourceTree = "<group>"; };
+		35E1A7501C97B1B6006E7C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E1A7A31C990F62006E7C80 /* DefaultClock.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DefaultClock.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35E1A71E1C97B1B6006E7C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E1A73C1C97B1B6006E7C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E1A7471C97B1B6006E7C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35518CB81C9BB76000D8A9C2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				35518CBC1C9BB95400D8A9C2 /* WTTime.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		35530A2F1C9D1DE900561F12 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				35518CB41C9A49C600D8A9C2 /* SKScene+Unarchive.h */,
+				35518CB51C9A49C600D8A9C2 /* SKScene+Unarchive.m */,
+				3560D66E1CAF9C2900C2E03A /* KBGeneralUtils.h */,
+				3560D66F1CAF9C2900C2E03A /* KBGeneralUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3560D6631CAF9B0900C2E03A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				3560D6641CAF9B0900C2E03A /* Effects */,
+				3560D6671CAF9B0900C2E03A /* Music */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		3560D6641CAF9B0900C2E03A /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				3560D6711CAF9CAB00C2E03A /* badoop.wav */,
+				3560D6721CAF9CAB00C2E03A /* buueewww.wav */,
+				3560D6731CAF9CAB00C2E03A /* buzzer.wav */,
+				3560D6741CAF9CAB00C2E03A /* neg.wav */,
+				3560D6751CAF9CAB00C2E03A /* pup.wav */,
+				3560D6761CAF9CAB00C2E03A /* pup2.wav */,
+				3560D6771CAF9CAB00C2E03A /* pup3.wav */,
+				3560D6651CAF9B0900C2E03A /* tick-tock-slow.wav */,
+				3560D6661CAF9B0900C2E03A /* tick-tock.wav */,
+			);
+			path = Effects;
+			sourceTree = "<group>";
+		};
+		3560D6671CAF9B0900C2E03A /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3560D6681CAF9B0900C2E03A /* elevator.wav */,
+				3560D6691CAF9B0900C2E03A /* funky.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		3560D6841CAFA1D300C2E03A /* SKS */ = {
+			isa = PBXGroup;
+			children = (
+				3560D6851CAFA1D300C2E03A /* GameOver.sks */,
+				3560D6861CAFA1D300C2E03A /* GameScene.sks */,
+				3560D6871CAFA1D300C2E03A /* MainMenu.sks */,
+				3560D6881CAFA1D300C2E03A /* TutorialScene.sks */,
+			);
+			path = SKS;
+			sourceTree = "<group>";
+		};
+		35B73D051C9D240D004F4DEC /* ClockSpawnPaternScenes */ = {
+			isa = PBXGroup;
+			children = (
+				35B73D081C9D243C004F4DEC /* BasicClockPattern_0.sks */,
+				35B73D091C9D243C004F4DEC /* BasicClockPattern_1.sks */,
+				35B73D061C9D240D004F4DEC /* BasicClockPattern_2.sks */,
+				351524FC1CAB775A00D65BE1 /* BasicClockPattern_3.sks */,
+			);
+			path = ClockSpawnPaternScenes;
+			sourceTree = "<group>";
+		};
+		35B73D0C1C9D30AF004F4DEC /* GameStates */ = {
+			isa = PBXGroup;
+			children = (
+				3560D6841CAFA1D300C2E03A /* SKS */,
+				3560D67F1CAFA19000C2E03A /* GameScene.h */,
+				3560D6801CAFA19000C2E03A /* GameScene.m */,
+				35B73D111C9D34E8004F4DEC /* MainMenu.h */,
+				35B73D121C9D34E8004F4DEC /* MainMenu.m */,
+				35B73D141C9D38EB004F4DEC /* GameOver.h */,
+				35B73D151C9D38EB004F4DEC /* GameOver.m */,
+				3560D68D1CAFA22100C2E03A /* WTBaseScene.h */,
+				3560D68E1CAFA22100C2E03A /* WTBaseScene.m */,
+				3539EB601CB5FCB60017E355 /* WTTutorialScene.h */,
+				3539EB611CB5FCB60017E355 /* WTTutorialScene.m */,
+			);
+			path = GameStates;
+			sourceTree = "<group>";
+		};
+		35E1A7181C97B1B6006E7C80 = {
+			isa = PBXGroup;
+			children = (
+				35E1A7231C97B1B6006E7C80 /* WhatTimeIsIt */,
+				35E1A7421C97B1B6006E7C80 /* WhatTimeIsItTests */,
+				35E1A74D1C97B1B6006E7C80 /* WhatTimeIsItUITests */,
+				35E1A7221C97B1B6006E7C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E1A7221C97B1B6006E7C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E1A7211C97B1B6006E7C80 /* WhatTimeIsIt.app */,
+				35E1A73F1C97B1B6006E7C80 /* WhatTimeIsItTests.xctest */,
+				35E1A74A1C97B1B6006E7C80 /* WhatTimeIsItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E1A7231C97B1B6006E7C80 /* WhatTimeIsIt */ = {
+			isa = PBXGroup;
+			children = (
+				35B73D0C1C9D30AF004F4DEC /* GameStates */,
+				35B73D051C9D240D004F4DEC /* ClockSpawnPaternScenes */,
+				35530A2F1C9D1DE900561F12 /* Utils */,
+				35518CB81C9BB76000D8A9C2 /* Data */,
+				35E1A75E1C97B500006E7C80 /* Clocks */,
+				35E1A7271C97B1B6006E7C80 /* AppDelegate.h */,
+				35E1A7281C97B1B6006E7C80 /* AppDelegate.m */,
+				35E1A72F1C97B1B6006E7C80 /* GameViewController.h */,
+				35E1A7301C97B1B6006E7C80 /* GameViewController.m */,
+				35E1A7321C97B1B6006E7C80 /* Main.storyboard */,
+				35E1A7351C97B1B6006E7C80 /* Assets.xcassets */,
+				35E1A7371C97B1B6006E7C80 /* LaunchScreen.storyboard */,
+				35E1A73A1C97B1B6006E7C80 /* Info.plist */,
+				35E1A7241C97B1B6006E7C80 /* Supporting Files */,
+			);
+			path = WhatTimeIsIt;
+			sourceTree = "<group>";
+		};
+		35E1A7241C97B1B6006E7C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3560D6631CAF9B0900C2E03A /* Sounds */,
+				351525031CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf */,
+				351525041CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf */,
+				351525051CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf */,
+				351525061CACE1EA00D65BE1 /* CaviarDreams.ttf */,
+				35E1A7251C97B1B6006E7C80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35E1A7421C97B1B6006E7C80 /* WhatTimeIsItTests */ = {
+			isa = PBXGroup;
+			children = (
+				35E1A7431C97B1B6006E7C80 /* WhatTimeIsItTests.m */,
+				35E1A7451C97B1B6006E7C80 /* Info.plist */,
+			);
+			path = WhatTimeIsItTests;
+			sourceTree = "<group>";
+		};
+		35E1A74D1C97B1B6006E7C80 /* WhatTimeIsItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35E1A74E1C97B1B6006E7C80 /* WhatTimeIsItUITests.m */,
+				35E1A7501C97B1B6006E7C80 /* Info.plist */,
+			);
+			path = WhatTimeIsItUITests;
+			sourceTree = "<group>";
+		};
+		35E1A75E1C97B500006E7C80 /* Clocks */ = {
+			isa = PBXGroup;
+			children = (
+				35E1A7A31C990F62006E7C80 /* DefaultClock.sks */,
+				35518CB11C9A483200D8A9C2 /* WTClock.h */,
+				35518CB21C9A483200D8A9C2 /* WTClock.m */,
+			);
+			path = Clocks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35E1A7201C97B1B6006E7C80 /* WhatTimeIsIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E1A7531C97B1B6006E7C80 /* Build configuration list for PBXNativeTarget "WhatTimeIsIt" */;
+			buildPhases = (
+				35E1A71D1C97B1B6006E7C80 /* Sources */,
+				35E1A71E1C97B1B6006E7C80 /* Frameworks */,
+				35E1A71F1C97B1B6006E7C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatTimeIsIt;
+			productName = WhatTimeIsIt;
+			productReference = 35E1A7211C97B1B6006E7C80 /* WhatTimeIsIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35E1A73E1C97B1B6006E7C80 /* WhatTimeIsItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E1A7561C97B1B6006E7C80 /* Build configuration list for PBXNativeTarget "WhatTimeIsItTests" */;
+			buildPhases = (
+				35E1A73B1C97B1B6006E7C80 /* Sources */,
+				35E1A73C1C97B1B6006E7C80 /* Frameworks */,
+				35E1A73D1C97B1B6006E7C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E1A7411C97B1B6006E7C80 /* PBXTargetDependency */,
+			);
+			name = WhatTimeIsItTests;
+			productName = WhatTimeIsItTests;
+			productReference = 35E1A73F1C97B1B6006E7C80 /* WhatTimeIsItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35E1A7491C97B1B6006E7C80 /* WhatTimeIsItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E1A7591C97B1B6006E7C80 /* Build configuration list for PBXNativeTarget "WhatTimeIsItUITests" */;
+			buildPhases = (
+				35E1A7461C97B1B6006E7C80 /* Sources */,
+				35E1A7471C97B1B6006E7C80 /* Frameworks */,
+				35E1A7481C97B1B6006E7C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E1A74C1C97B1B6006E7C80 /* PBXTargetDependency */,
+			);
+			name = WhatTimeIsItUITests;
+			productName = WhatTimeIsItUITests;
+			productReference = 35E1A74A1C97B1B6006E7C80 /* WhatTimeIsItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E1A7191C97B1B6006E7C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kevin Bloom";
+				TargetAttributes = {
+					35E1A7201C97B1B6006E7C80 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V9ZKP792CL;
+					};
+					35E1A73E1C97B1B6006E7C80 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 35E1A7201C97B1B6006E7C80;
+					};
+					35E1A7491C97B1B6006E7C80 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 35E1A7201C97B1B6006E7C80;
+					};
+				};
+			};
+			buildConfigurationList = 35E1A71C1C97B1B6006E7C80 /* Build configuration list for PBXProject "WhatTimeIsIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35E1A7181C97B1B6006E7C80;
+			productRefGroup = 35E1A7221C97B1B6006E7C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35E1A7201C97B1B6006E7C80 /* WhatTimeIsIt */,
+				35E1A73E1C97B1B6006E7C80 /* WhatTimeIsItTests */,
+				35E1A7491C97B1B6006E7C80 /* WhatTimeIsItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E1A71F1C97B1B6006E7C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E1A7A41C990F62006E7C80 /* DefaultClock.sks in Resources */,
+				3560D68A1CAFA1D300C2E03A /* GameScene.sks in Resources */,
+				3560D6891CAFA1D300C2E03A /* GameOver.sks in Resources */,
+				351525081CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf in Resources */,
+				3560D66B1CAF9B0900C2E03A /* tick-tock.wav in Resources */,
+				3560D67D1CAF9CAB00C2E03A /* pup2.wav in Resources */,
+				3560D66C1CAF9B0900C2E03A /* elevator.wav in Resources */,
+				35B73D0A1C9D243C004F4DEC /* BasicClockPattern_0.sks in Resources */,
+				351525091CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf in Resources */,
+				351525071CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf in Resources */,
+				35B73D0B1C9D243C004F4DEC /* BasicClockPattern_1.sks in Resources */,
+				3515250A1CACE1EA00D65BE1 /* CaviarDreams.ttf in Resources */,
+				351524FD1CAB775A00D65BE1 /* BasicClockPattern_3.sks in Resources */,
+				3560D66D1CAF9B0900C2E03A /* funky.wav in Resources */,
+				35E1A7391C97B1B6006E7C80 /* LaunchScreen.storyboard in Resources */,
+				35B73D071C9D240D004F4DEC /* BasicClockPattern_2.sks in Resources */,
+				3560D66A1CAF9B0900C2E03A /* tick-tock-slow.wav in Resources */,
+				35E1A7361C97B1B6006E7C80 /* Assets.xcassets in Resources */,
+				3560D6791CAF9CAB00C2E03A /* buueewww.wav in Resources */,
+				3560D67C1CAF9CAB00C2E03A /* pup.wav in Resources */,
+				3560D67A1CAF9CAB00C2E03A /* buzzer.wav in Resources */,
+				3560D68B1CAFA1D300C2E03A /* MainMenu.sks in Resources */,
+				3560D67B1CAF9CAB00C2E03A /* neg.wav in Resources */,
+				3560D68C1CAFA1D300C2E03A /* TutorialScene.sks in Resources */,
+				3560D67E1CAF9CAB00C2E03A /* pup3.wav in Resources */,
+				3560D6781CAF9CAB00C2E03A /* badoop.wav in Resources */,
+				35E1A7341C97B1B6006E7C80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E1A73D1C97B1B6006E7C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E1A7481C97B1B6006E7C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35E1A71D1C97B1B6006E7C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B73D131C9D34E8004F4DEC /* MainMenu.m in Sources */,
+				3539EB621CB5FCB60017E355 /* WTTutorialScene.m in Sources */,
+				3560D6821CAFA19000C2E03A /* GameScene.m in Sources */,
+				35E1A7311C97B1B6006E7C80 /* GameViewController.m in Sources */,
+				35E1A7291C97B1B6006E7C80 /* AppDelegate.m in Sources */,
+				3560D68F1CAFA22100C2E03A /* WTBaseScene.m in Sources */,
+				35B73D161C9D38EB004F4DEC /* GameOver.m in Sources */,
+				3560D6701CAF9C2900C2E03A /* KBGeneralUtils.m in Sources */,
+				35518CB61C9A49C600D8A9C2 /* SKScene+Unarchive.m in Sources */,
+				35518CB31C9A483200D8A9C2 /* WTClock.m in Sources */,
+				35E1A7261C97B1B6006E7C80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E1A73B1C97B1B6006E7C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E1A7441C97B1B6006E7C80 /* WhatTimeIsItTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E1A7461C97B1B6006E7C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E1A74F1C97B1B6006E7C80 /* WhatTimeIsItUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35E1A7411C97B1B6006E7C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E1A7201C97B1B6006E7C80 /* WhatTimeIsIt */;
+			targetProxy = 35E1A7401C97B1B6006E7C80 /* PBXContainerItemProxy */;
+		};
+		35E1A74C1C97B1B6006E7C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35E1A7201C97B1B6006E7C80 /* WhatTimeIsIt */;
+			targetProxy = 35E1A74B1C97B1B6006E7C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35E1A7321C97B1B6006E7C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E1A7331C97B1B6006E7C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35E1A7371C97B1B6006E7C80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35E1A7381C97B1B6006E7C80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35E1A7511C97B1B6006E7C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35E1A7521C97B1B6006E7C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35E1A7541C97B1B6006E7C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WhatTimeIsIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenlayergames.whattimeisit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35E1A7551C97B1B6006E7C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WhatTimeIsIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenlayergames.whattimeisit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		35E1A7571C97B1B6006E7C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = WhatTimeIsItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenlayergames.WhatTimeIsItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatTimeIsIt.app/WhatTimeIsIt";
+			};
+			name = Debug;
+		};
+		35E1A7581C97B1B6006E7C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WhatTimeIsItTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenlayergames.WhatTimeIsItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatTimeIsIt.app/WhatTimeIsIt";
+			};
+			name = Release;
+		};
+		35E1A75A1C97B1B6006E7C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = WhatTimeIsItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenlayergames.WhatTimeIsItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhatTimeIsIt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		35E1A75B1C97B1B6006E7C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WhatTimeIsItUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenlayergames.WhatTimeIsItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhatTimeIsIt;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35E1A71C1C97B1B6006E7C80 /* Build configuration list for PBXProject "WhatTimeIsIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E1A7511C97B1B6006E7C80 /* Debug */,
+				35E1A7521C97B1B6006E7C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E1A7531C97B1B6006E7C80 /* Build configuration list for PBXNativeTarget "WhatTimeIsIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E1A7541C97B1B6006E7C80 /* Debug */,
+				35E1A7551C97B1B6006E7C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E1A7561C97B1B6006E7C80 /* Build configuration list for PBXNativeTarget "WhatTimeIsItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E1A7571C97B1B6006E7C80 /* Debug */,
+				35E1A7581C97B1B6006E7C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E1A7591C97B1B6006E7C80 /* Build configuration list for PBXNativeTarget "WhatTimeIsItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E1A75A1C97B1B6006E7C80 /* Debug */,
+				35E1A75B1C97B1B6006E7C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E1A7191C97B1B6006E7C80 /* Project object */;
+}
