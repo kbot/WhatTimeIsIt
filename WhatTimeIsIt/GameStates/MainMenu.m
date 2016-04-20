@@ -23,6 +23,7 @@
     /* Setup your scene here */
 
     self.backgroundClockNode = (WTClock*)[self childNodeWithName:@"WTClockRef"].children[0].children[0];
+    self.backgroundClockNode.keepsRealTime = YES;
     [self.backgroundClockNode windClockToTime:WTTimeCurrentWithBufferTime(0) withContinuousSpinDuration:0 andToFinalTimeDuration:0];
     
     SKAudioNode* node = [[SKAudioNode alloc] initWithFileNamed:@"elevator.wav"];

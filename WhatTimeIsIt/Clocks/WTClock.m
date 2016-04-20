@@ -11,6 +11,8 @@
 @interface WTClock ()
 @property (nonatomic,assign) WTTime finalTime;
 @property (nonatomic,weak) SKAction* infinteAction;
+
+@property (nonatomic,strong) NSTimer* realtimeClockTimer;
 @end
 
 @implementation WTClock
@@ -39,8 +41,8 @@
         [hourHand removeAllActions];
         [minuteHand removeAllActions];
         
-        CGFloat degHour = WTTimeHourToDegrees(time.hour);
         CGFloat degMinutes = WTTimeMinutesToDegrees(time.minute);
+        CGFloat degHour = WTTimeHourToDegreesWithMinutes(time.hour,time.minute);
 
         [hourHand runAction:[SKAction rotateToAngle:DegToRad(degHour) duration:toFinalDur shortestUnitArc:YES]];
         [minuteHand runAction:[SKAction rotateToAngle:DegToRad(degMinutes) duration:toFinalDur shortestUnitArc:YES]];
@@ -48,6 +50,34 @@
     });
     
     return nil;
+}
+
+-(void)setKeepsRealTime:(BOOL)keepsRealTime {
+    _keepsRealTime = keepsRealTime;
+    if (_keepsRealTime) {
+        [self startRealtimeClock];
+    }
+    else {
+        [self stopRealtimeClock];
+    }
+}
+
+-(void)startRealtimeClock {
+    if (self.realtimeClockTimer) {
+        [self.realtimeClockTimer invalidate];
+    }
+    self.realtimeClockTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(clockTick:) userInfo:nil repeats:YES];
+}
+
+-(void)stopRealtimeClock {
+    if (self.realtimeClockTimer) {
+        [self.realtimeClockTimer invalidate];
+    }
+}
+
+-(void)clockTick:(NSTimer*)timer {
+    WTTime currentTime = WTTimeCurrentWithBufferTime(0);
+    [self windClockToTime:currentTime withContinuousSpinDuration:0 andToFinalTimeDuration:0];
 }
 
 @end

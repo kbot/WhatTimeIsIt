@@ -9,6 +9,7 @@
 #import <SpriteKit/SpriteKit.h>
 #import "WTBaseScene.h"
 #import "WTClock.h"
+#import "KBSpriteButton.h"
 
 @interface GameScene : WTBaseScene
 
@@ -22,6 +23,10 @@
 @property (nonatomic, readonly, strong) SKSpriteNode* timer;
 
 @property (nonatomic, readonly, assign) int difficulty;
+
+@property (nonatomic, assign) BOOL pauseButtonVisible;
+
+@property (nonatomic, strong, readonly) KBSpriteButton* pauseButton;
 
 #pragma mark - GameStates
 -(void)failGame;

@@ -33,6 +33,8 @@ static inline WTTime WTTimeRandomTime();
 
 static inline CGFloat WTTimeHourToDegrees(int hour);
 
+static inline CGFloat WTTimeHourToDegreesWithMinutes(int hour, int minutes);
+
 static inline CGFloat WTTimeMinutesToDegrees(int minutes);
 
 static inline bool WTTimeEqualsTime(WTTime time1, WTTime time2);
@@ -67,7 +69,11 @@ static inline WTTime WTTimeRandomTime() {
 }
 
 static inline CGFloat WTTimeHourToDegrees(int hour) {
-    return -WTTimeDegreesPerHour * (hour % 12);
+    return WTTimeHourToDegreesWithMinutes(hour,0);
+}
+
+static inline CGFloat WTTimeHourToDegreesWithMinutes(int hour, int minutes) {
+    return -WTTimeDegreesPerHour * (hour % 12) - (WTTimeDegreesPerHour * minutes/60);
 }
 
 static inline CGFloat WTTimeMinutesToDegrees(int minutes) {

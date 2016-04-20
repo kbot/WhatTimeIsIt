@@ -13,6 +13,8 @@
 
 @property (nonatomic,readonly) WTTime finalTime;
 
+@property (nonatomic,assign) BOOL keepsRealTime;
+
 -(NSError*)windClockToTime:(WTTime)time withContinuousSpinDuration:(CGFloat)contSpinDur andToFinalTimeDuration:(CGFloat)toFinalDur;
 
 @end

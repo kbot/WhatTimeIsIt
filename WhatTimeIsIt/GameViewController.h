@@ -11,4 +11,7 @@
 
 @interface GameViewController : UIViewController
 
+-(void)pauseCurrentScene;
+-(void)resumeCurrentScene;
+
 @end

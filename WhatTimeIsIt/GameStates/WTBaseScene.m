@@ -34,7 +34,42 @@
             [self.sceneMusicPlayer play];
         }
     }
+    
     return nil;
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    for (UITouch *touch in touches) {
+        CGPoint location = [touch locationInNode:self];
+        NSArray<SKNode*>* nodesAtPoint = [self nodesAtPoint:location];
+        for (SKNode* node in nodesAtPoint) {
+            if (node.isUserInteractionEnabled) {
+                [node touchesBegan:touches withEvent:event];
+            }
+        }
+    }
+}
+-(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    for (UITouch *touch in touches) {
+        CGPoint location = [touch locationInNode:self];
+        NSArray<SKNode*>* nodesAtPoint = [self nodesAtPoint:location];
+        for (SKNode* node in nodesAtPoint) {
+            if (node.isUserInteractionEnabled) {
+                [node touchesEnded:touches withEvent:event];
+            }
+        }
+    }
+}
+-(void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    for (UITouch *touch in touches) {
+        CGPoint location = [touch locationInNode:self];
+        NSArray<SKNode*>* nodesAtPoint = [self nodesAtPoint:location];
+        for (SKNode* node in nodesAtPoint) {
+            if (node.isUserInteractionEnabled) {
+                [node touchesCancelled:touches withEvent:event];
+            }
+        }
+    }
 }
 
 @end

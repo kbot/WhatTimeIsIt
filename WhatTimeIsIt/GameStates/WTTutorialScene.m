@@ -22,6 +22,10 @@
     //quick and dirty is first play
     self.tutorialStep = -1;
     self.tutorialSceneRef = [WTTutorialScene unarchiveFromFile:@"TutorialScene"];
+    
+    [self resetTimerAndStartCountdown:NO];
+    
+    self.pauseButton.hidden = YES;
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -29,10 +33,12 @@
     UITouch *touch = [touches anyObject];
     CGPoint location = [touch locationInNode:self];
     NSArray<SKNode*>* nodesAtPoint = [self nodesAtPoint:location];
+    BOOL didTapClock = NO;
     //we are playing the game
     for (SKNode* node in nodesAtPoint) {
         //TODO - move the touch handling to the WTClock Class and report to game class if it's a tap
         if ([node isKindOfClass:WTClock.class]) {
+            didTapClock = YES;
             //always the correct clock in tut mode
             [self removeAllChildren];
             [self addChild:self.playerScoreLabel];
@@ -43,8 +49,9 @@
             break;
         }
     }
-    
-    [self showNextTutorial];
+    if (didTapClock || self.tutorialStep != 0) {
+        [self showNextTutorial];
+    }
 
 }
 
@@ -53,7 +60,7 @@
     SKNode* clockTargetNode = [clockPattern objectForKeyedSubscript:@"clockTargetNode"].firstObject;
     SKNode* clockStartNode = [clockPattern objectForKeyedSubscript:@"clockPlaceholderNode"].firstObject;
     
-    WTClock* clockNode = [(WTClock*)[SKScene unarchiveFromFile:@"DefaultClock"].children[0] copy];
+    WTClock* clockNode = [(WTClock*)[SKScene unarchiveFromFile:@"Default"].children[0] copy];
     [clockNode windClockToTime:WTTimeCurrentWithBufferTime(0) withContinuousSpinDuration:0 andToFinalTimeDuration:0];
     clockNode.xScale *= 3.0f;
     clockNode.yScale *= 3.0f;
@@ -82,8 +89,11 @@
     }
     self.scene.speed = 0.0f;
     const NSString * tutStep = [NSString stringWithFormat:@"tut_%lu",(unsigned long)step];
+    SKNode* copiedChild;
     for (SKNode* childForStep in self.tutorialSceneRef.children) {
         if ([childForStep.name hasPrefix:(NSString*)tutStep]) {
+            copiedChild = [childForStep copy];
+            copiedChild.zPosition = CGFLOAT_MAX;
             [self addChild:[childForStep copy]];
         }
     }

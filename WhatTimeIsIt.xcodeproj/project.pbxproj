@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		351524FD1CAB775A00D65BE1 /* BasicClockPattern_3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 351524FC1CAB775A00D65BE1 /* BasicClockPattern_3.sks */; };
 		351525071CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525031CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf */; };
 		351525081CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525041CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf */; };
 		351525091CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351525051CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf */; };
@@ -33,9 +32,25 @@
 		3560D68B1CAFA1D300C2E03A /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6871CAFA1D300C2E03A /* MainMenu.sks */; };
 		3560D68C1CAFA1D300C2E03A /* TutorialScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3560D6881CAFA1D300C2E03A /* TutorialScene.sks */; };
 		3560D68F1CAFA22100C2E03A /* WTBaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3560D68E1CAFA22100C2E03A /* WTBaseScene.m */; };
-		35B73D071C9D240D004F4DEC /* BasicClockPattern_2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B73D061C9D240D004F4DEC /* BasicClockPattern_2.sks */; };
-		35B73D0A1C9D243C004F4DEC /* BasicClockPattern_0.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B73D081C9D243C004F4DEC /* BasicClockPattern_0.sks */; };
-		35B73D0B1C9D243C004F4DEC /* BasicClockPattern_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35B73D091C9D243C004F4DEC /* BasicClockPattern_1.sks */; };
+		3588A4841CBB16FE00143523 /* KBSpriteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588A4831CBB16FE00143523 /* KBSpriteButton.m */; };
+		35AB88391CC47884004E0290 /* BasicClockPattern_0.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88341CC47884004E0290 /* BasicClockPattern_0.sks */; };
+		35AB883A1CC47884004E0290 /* BasicClockPattern_1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88351CC47884004E0290 /* BasicClockPattern_1.sks */; };
+		35AB883B1CC47884004E0290 /* BasicClockPattern_2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88361CC47884004E0290 /* BasicClockPattern_2.sks */; };
+		35AB883C1CC47884004E0290 /* BasicClockPattern_3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88371CC47884004E0290 /* BasicClockPattern_3.sks */; };
+		35AB883D1CC47884004E0290 /* BasicClockPattern_4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88381CC47884004E0290 /* BasicClockPattern_4.sks */; };
+		35AB88441CC5C983004E0290 /* BasicClockPattern_5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB883E1CC5C983004E0290 /* BasicClockPattern_5.sks */; };
+		35AB88451CC5C983004E0290 /* BasicClockPattern_7.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB883F1CC5C983004E0290 /* BasicClockPattern_7.sks */; };
+		35AB88461CC5C983004E0290 /* BasicClockPattern_6.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88401CC5C983004E0290 /* BasicClockPattern_6.sks */; };
+		35AB88471CC5C983004E0290 /* BasicClockPattern_8.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88411CC5C983004E0290 /* BasicClockPattern_8.sks */; };
+		35AB88481CC5C983004E0290 /* BasicClockPattern_9.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88421CC5C983004E0290 /* BasicClockPattern_9.sks */; };
+		35AB88491CC5C983004E0290 /* BasicClockPattern_10.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88431CC5C983004E0290 /* BasicClockPattern_10.sks */; };
+		35AB884B1CC5CE41004E0290 /* BasicClockPattern_11.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB884A1CC5CE41004E0290 /* BasicClockPattern_11.sks */; };
+		35AB884D1CC5CE54004E0290 /* BasicClockPattern_12.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB884C1CC5CE54004E0290 /* BasicClockPattern_12.sks */; };
+		35AB887D1CC738D9004E0290 /* Default.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88781CC738D9004E0290 /* Default.sks */; };
+		35AB887E1CC738D9004E0290 /* SimpleBlank.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB88791CC738D9004E0290 /* SimpleBlank.sks */; };
+		35AB887F1CC738D9004E0290 /* SimpleMasked.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB887A1CC738D9004E0290 /* SimpleMasked.sks */; };
+		35AB88801CC738D9004E0290 /* SimpleMinimalNotches.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB887B1CC738D9004E0290 /* SimpleMinimalNotches.sks */; };
+		35AB88811CC738D9004E0290 /* SimpleStandardNotches.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35AB887C1CC738D9004E0290 /* SimpleStandardNotches.sks */; };
 		35B73D131C9D34E8004F4DEC /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B73D121C9D34E8004F4DEC /* MainMenu.m */; };
 		35B73D161C9D38EB004F4DEC /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B73D151C9D38EB004F4DEC /* GameOver.m */; };
 		35E1A7261C97B1B6006E7C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A7251C97B1B6006E7C80 /* main.m */; };
@@ -46,7 +61,6 @@
 		35E1A7391C97B1B6006E7C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A7371C97B1B6006E7C80 /* LaunchScreen.storyboard */; };
 		35E1A7441C97B1B6006E7C80 /* WhatTimeIsItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A7431C97B1B6006E7C80 /* WhatTimeIsItTests.m */; };
 		35E1A74F1C97B1B6006E7C80 /* WhatTimeIsItUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E1A74E1C97B1B6006E7C80 /* WhatTimeIsItUITests.m */; };
-		35E1A7A41C990F62006E7C80 /* DefaultClock.sks in Resources */ = {isa = PBXBuildFile; fileRef = 35E1A7A31C990F62006E7C80 /* DefaultClock.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +81,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		351524FC1CAB775A00D65BE1 /* BasicClockPattern_3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_3.sks; sourceTree = "<group>"; };
 		351525031CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
 		351525041CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
 		351525051CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Italic.ttf; sourceTree = "<group>"; };
@@ -100,9 +113,26 @@
 		3560D6881CAFA1D300C2E03A /* TutorialScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TutorialScene.sks; sourceTree = "<group>"; };
 		3560D68D1CAFA22100C2E03A /* WTBaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTBaseScene.h; sourceTree = "<group>"; };
 		3560D68E1CAFA22100C2E03A /* WTBaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTBaseScene.m; sourceTree = "<group>"; };
-		35B73D061C9D240D004F4DEC /* BasicClockPattern_2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_2.sks; sourceTree = "<group>"; };
-		35B73D081C9D243C004F4DEC /* BasicClockPattern_0.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_0.sks; sourceTree = "<group>"; };
-		35B73D091C9D243C004F4DEC /* BasicClockPattern_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_1.sks; sourceTree = "<group>"; };
+		3588A4821CBB16FE00143523 /* KBSpriteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSpriteButton.h; sourceTree = "<group>"; };
+		3588A4831CBB16FE00143523 /* KBSpriteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSpriteButton.m; sourceTree = "<group>"; };
+		35AB88341CC47884004E0290 /* BasicClockPattern_0.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_0.sks; sourceTree = "<group>"; };
+		35AB88351CC47884004E0290 /* BasicClockPattern_1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_1.sks; sourceTree = "<group>"; };
+		35AB88361CC47884004E0290 /* BasicClockPattern_2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_2.sks; sourceTree = "<group>"; };
+		35AB88371CC47884004E0290 /* BasicClockPattern_3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_3.sks; sourceTree = "<group>"; };
+		35AB88381CC47884004E0290 /* BasicClockPattern_4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_4.sks; sourceTree = "<group>"; };
+		35AB883E1CC5C983004E0290 /* BasicClockPattern_5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_5.sks; sourceTree = "<group>"; };
+		35AB883F1CC5C983004E0290 /* BasicClockPattern_7.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_7.sks; sourceTree = "<group>"; };
+		35AB88401CC5C983004E0290 /* BasicClockPattern_6.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_6.sks; sourceTree = "<group>"; };
+		35AB88411CC5C983004E0290 /* BasicClockPattern_8.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_8.sks; sourceTree = "<group>"; };
+		35AB88421CC5C983004E0290 /* BasicClockPattern_9.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_9.sks; sourceTree = "<group>"; };
+		35AB88431CC5C983004E0290 /* BasicClockPattern_10.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_10.sks; sourceTree = "<group>"; };
+		35AB884A1CC5CE41004E0290 /* BasicClockPattern_11.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_11.sks; sourceTree = "<group>"; };
+		35AB884C1CC5CE54004E0290 /* BasicClockPattern_12.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BasicClockPattern_12.sks; sourceTree = "<group>"; };
+		35AB88781CC738D9004E0290 /* Default.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Default.sks; sourceTree = "<group>"; };
+		35AB88791CC738D9004E0290 /* SimpleBlank.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SimpleBlank.sks; sourceTree = "<group>"; };
+		35AB887A1CC738D9004E0290 /* SimpleMasked.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SimpleMasked.sks; sourceTree = "<group>"; };
+		35AB887B1CC738D9004E0290 /* SimpleMinimalNotches.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SimpleMinimalNotches.sks; sourceTree = "<group>"; };
+		35AB887C1CC738D9004E0290 /* SimpleStandardNotches.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SimpleStandardNotches.sks; sourceTree = "<group>"; };
 		35B73D111C9D34E8004F4DEC /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
 		35B73D121C9D34E8004F4DEC /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
 		35B73D141C9D38EB004F4DEC /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
@@ -123,7 +153,6 @@
 		35E1A74A1C97B1B6006E7C80 /* WhatTimeIsItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatTimeIsItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E1A74E1C97B1B6006E7C80 /* WhatTimeIsItUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhatTimeIsItUITests.m; sourceTree = "<group>"; };
 		35E1A7501C97B1B6006E7C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		35E1A7A31C990F62006E7C80 /* DefaultClock.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = DefaultClock.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +195,8 @@
 				35518CB51C9A49C600D8A9C2 /* SKScene+Unarchive.m */,
 				3560D66E1CAF9C2900C2E03A /* KBGeneralUtils.h */,
 				3560D66F1CAF9C2900C2E03A /* KBGeneralUtils.m */,
+				3588A4821CBB16FE00143523 /* KBSpriteButton.h */,
+				3588A4831CBB16FE00143523 /* KBSpriteButton.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -215,13 +246,42 @@
 			path = SKS;
 			sourceTree = "<group>";
 		};
+		35AB88331CC47884004E0290 /* BasicLayout */ = {
+			isa = PBXGroup;
+			children = (
+				35AB88341CC47884004E0290 /* BasicClockPattern_0.sks */,
+				35AB88351CC47884004E0290 /* BasicClockPattern_1.sks */,
+				35AB88361CC47884004E0290 /* BasicClockPattern_2.sks */,
+				35AB88371CC47884004E0290 /* BasicClockPattern_3.sks */,
+				35AB88381CC47884004E0290 /* BasicClockPattern_4.sks */,
+				35AB883E1CC5C983004E0290 /* BasicClockPattern_5.sks */,
+				35AB88401CC5C983004E0290 /* BasicClockPattern_6.sks */,
+				35AB883F1CC5C983004E0290 /* BasicClockPattern_7.sks */,
+				35AB88411CC5C983004E0290 /* BasicClockPattern_8.sks */,
+				35AB88421CC5C983004E0290 /* BasicClockPattern_9.sks */,
+				35AB88431CC5C983004E0290 /* BasicClockPattern_10.sks */,
+				35AB884A1CC5CE41004E0290 /* BasicClockPattern_11.sks */,
+				35AB884C1CC5CE54004E0290 /* BasicClockPattern_12.sks */,
+			);
+			path = BasicLayout;
+			sourceTree = "<group>";
+		};
+		35AB88771CC738D9004E0290 /* ClockScenes */ = {
+			isa = PBXGroup;
+			children = (
+				35AB88781CC738D9004E0290 /* Default.sks */,
+				35AB88791CC738D9004E0290 /* SimpleBlank.sks */,
+				35AB887A1CC738D9004E0290 /* SimpleMasked.sks */,
+				35AB887B1CC738D9004E0290 /* SimpleMinimalNotches.sks */,
+				35AB887C1CC738D9004E0290 /* SimpleStandardNotches.sks */,
+			);
+			path = ClockScenes;
+			sourceTree = "<group>";
+		};
 		35B73D051C9D240D004F4DEC /* ClockSpawnPaternScenes */ = {
 			isa = PBXGroup;
 			children = (
-				35B73D081C9D243C004F4DEC /* BasicClockPattern_0.sks */,
-				35B73D091C9D243C004F4DEC /* BasicClockPattern_1.sks */,
-				35B73D061C9D240D004F4DEC /* BasicClockPattern_2.sks */,
-				351524FC1CAB775A00D65BE1 /* BasicClockPattern_3.sks */,
+				35AB88331CC47884004E0290 /* BasicLayout */,
 			);
 			path = ClockSpawnPaternScenes;
 			sourceTree = "<group>";
@@ -319,7 +379,7 @@
 		35E1A75E1C97B500006E7C80 /* Clocks */ = {
 			isa = PBXGroup;
 			children = (
-				35E1A7A31C990F62006E7C80 /* DefaultClock.sks */,
+				35AB88771CC738D9004E0290 /* ClockScenes */,
 				35518CB11C9A483200D8A9C2 /* WTClock.h */,
 				35518CB21C9A483200D8A9C2 /* WTClock.m */,
 			);
@@ -430,31 +490,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E1A7A41C990F62006E7C80 /* DefaultClock.sks in Resources */,
+				35AB884D1CC5CE54004E0290 /* BasicClockPattern_12.sks in Resources */,
 				3560D68A1CAFA1D300C2E03A /* GameScene.sks in Resources */,
 				3560D6891CAFA1D300C2E03A /* GameOver.sks in Resources */,
 				351525081CACE1EA00D65BE1 /* CaviarDreams_BoldItalic.ttf in Resources */,
 				3560D66B1CAF9B0900C2E03A /* tick-tock.wav in Resources */,
+				35AB88801CC738D9004E0290 /* SimpleMinimalNotches.sks in Resources */,
+				35AB883A1CC47884004E0290 /* BasicClockPattern_1.sks in Resources */,
 				3560D67D1CAF9CAB00C2E03A /* pup2.wav in Resources */,
 				3560D66C1CAF9B0900C2E03A /* elevator.wav in Resources */,
-				35B73D0A1C9D243C004F4DEC /* BasicClockPattern_0.sks in Resources */,
+				35AB887F1CC738D9004E0290 /* SimpleMasked.sks in Resources */,
 				351525091CACE1EA00D65BE1 /* CaviarDreams_Italic.ttf in Resources */,
+				35AB883C1CC47884004E0290 /* BasicClockPattern_3.sks in Resources */,
 				351525071CACE1EA00D65BE1 /* CaviarDreams_Bold.ttf in Resources */,
-				35B73D0B1C9D243C004F4DEC /* BasicClockPattern_1.sks in Resources */,
+				35AB88391CC47884004E0290 /* BasicClockPattern_0.sks in Resources */,
+				35AB88461CC5C983004E0290 /* BasicClockPattern_6.sks in Resources */,
+				35AB88811CC738D9004E0290 /* SimpleStandardNotches.sks in Resources */,
 				3515250A1CACE1EA00D65BE1 /* CaviarDreams.ttf in Resources */,
-				351524FD1CAB775A00D65BE1 /* BasicClockPattern_3.sks in Resources */,
+				35AB883D1CC47884004E0290 /* BasicClockPattern_4.sks in Resources */,
 				3560D66D1CAF9B0900C2E03A /* funky.wav in Resources */,
+				35AB88451CC5C983004E0290 /* BasicClockPattern_7.sks in Resources */,
 				35E1A7391C97B1B6006E7C80 /* LaunchScreen.storyboard in Resources */,
-				35B73D071C9D240D004F4DEC /* BasicClockPattern_2.sks in Resources */,
 				3560D66A1CAF9B0900C2E03A /* tick-tock-slow.wav in Resources */,
+				35AB887D1CC738D9004E0290 /* Default.sks in Resources */,
+				35AB884B1CC5CE41004E0290 /* BasicClockPattern_11.sks in Resources */,
 				35E1A7361C97B1B6006E7C80 /* Assets.xcassets in Resources */,
 				3560D6791CAF9CAB00C2E03A /* buueewww.wav in Resources */,
 				3560D67C1CAF9CAB00C2E03A /* pup.wav in Resources */,
 				3560D67A1CAF9CAB00C2E03A /* buzzer.wav in Resources */,
 				3560D68B1CAFA1D300C2E03A /* MainMenu.sks in Resources */,
+				35AB88481CC5C983004E0290 /* BasicClockPattern_9.sks in Resources */,
 				3560D67B1CAF9CAB00C2E03A /* neg.wav in Resources */,
+				35AB88471CC5C983004E0290 /* BasicClockPattern_8.sks in Resources */,
+				35AB883B1CC47884004E0290 /* BasicClockPattern_2.sks in Resources */,
+				35AB887E1CC738D9004E0290 /* SimpleBlank.sks in Resources */,
 				3560D68C1CAFA1D300C2E03A /* TutorialScene.sks in Resources */,
 				3560D67E1CAF9CAB00C2E03A /* pup3.wav in Resources */,
+				35AB88441CC5C983004E0290 /* BasicClockPattern_5.sks in Resources */,
+				35AB88491CC5C983004E0290 /* BasicClockPattern_10.sks in Resources */,
 				3560D6781CAF9CAB00C2E03A /* badoop.wav in Resources */,
 				35E1A7341C97B1B6006E7C80 /* Main.storyboard in Resources */,
 			);
@@ -492,6 +565,7 @@
 				35518CB61C9A49C600D8A9C2 /* SKScene+Unarchive.m in Sources */,
 				35518CB31C9A483200D8A9C2 /* WTClock.m in Sources */,
 				35E1A7261C97B1B6006E7C80 /* main.m in Sources */,
+				3588A4841CBB16FE00143523 /* KBSpriteButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

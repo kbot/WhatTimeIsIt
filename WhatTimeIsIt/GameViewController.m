@@ -28,6 +28,18 @@
     
     // Present the scene.
     [skView presentScene:scene];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willResignActive:) name:UIApplicationWillResignActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willBecomeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+-(void)pauseCurrentScene {
+    SKView * skView = (SKView *)self.view;
+    skView.scene.speed = 0.0f;
+}
+-(void)resumeCurrentScene {
+    SKView * skView = (SKView *)self.view;
+    skView.scene.speed = 1.0f;
 }
 
 - (BOOL)shouldAutorotate
@@ -56,6 +68,15 @@
 
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
+}
+
+#pragma mark - App State
+-(void)willResignActive:(NSNotification*)notif {
+    [self pauseCurrentScene];
+}
+
+-(void)willBecomeActive:(NSNotification*)notif {
+    [self resumeCurrentScene];
 }
 
 @end

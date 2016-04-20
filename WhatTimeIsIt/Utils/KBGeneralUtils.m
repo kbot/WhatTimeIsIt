@@ -10,6 +10,19 @@
 
 @implementation KBGeneralUtils
 
+#pragma mark - Colors Utils
++(UIColor*)darkenedColorFromColor:(UIColor*)originalColor {
+    return [KBGeneralUtils darkenedColorFromColor:originalColor darkenMultiplier:0.8f];
+}
++(UIColor*)darkenedColorFromColor:(UIColor*)originalColor darkenMultiplier:(CGFloat)multiplier {
+    if (originalColor == nil) {
+        return [UIColor blackColor];
+    }
+    CGFloat r,g,b,a;
+    [originalColor getRed:&r green:&g blue:&b alpha:&a];
+    return [UIColor colorWithRed:r*multiplier green:g*multiplier blue:b*multiplier alpha:a];
+}
+
 #pragma mark - FilePath Utils
 +(NSString*)filePathForDocument:(NSString*)filename {
     return [KBGeneralUtils filePathURLForDocument:filename].absoluteString;
